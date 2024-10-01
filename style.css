@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Darkline';
+    src: url(DARKLINE.TTF);
+  }
+
+.fondo {
+    position: relative;
+    width: 856px;
+    height: 716px;
+    background-image: url(https://i.imgur.com/NwlRqOk.png);
+}
+
+.imagen-container {
+    position: relative;
+    width: 208px; /* Ajusta el tamaño que necesites */
+    height: 356px; /* Ajusta el tamaño que necesites */
+    left: 15px;
+    top: 6px;
+}
+
+.imagen-principal, .imagen-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.imagen-hover {
+    opacity: 0;
+}
+
+.imagen-container:hover .imagen-hover {
+    opacity: 1;
+}
+
+.imagen-container:hover .imagen-principal {
+    opacity: 1;
+}
+
+.imagen-container2 {
+    position: relative;
+    width: 208px; /* Ajusta el tamaño que necesites */
+    height: 356px; /* Ajusta el tamaño que necesites */
+    left: 15px;
+    top: -2px;
+}
+
+.imagen-principal2, .imagen-hover2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.imagen-hover2 {
+    opacity: 0;
+}
+
+.imagen-container2:hover .imagen-hover2 {
+    opacity: 1;
+}
+
+.imagen-container2:hover .imagen-principal2 {
+    opacity: 1;
+}
